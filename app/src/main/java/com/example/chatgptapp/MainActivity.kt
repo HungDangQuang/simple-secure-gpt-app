@@ -139,7 +139,7 @@ class MainActivity : AppCompatActivity() {
 
     suspend fun testResponse(text:String) : String? {
         val openai = OpenAI(
-            token = "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",
+            token = "MY_KEY",
             timeout = Timeout(socket = 60.seconds),
             // additional configurations...
         )
